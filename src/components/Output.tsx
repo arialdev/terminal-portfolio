@@ -13,6 +13,7 @@ import Themes from "./commands/Themes";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
+import Blog from "./commands/Blog";
 
 type Props = {
   index: number;
@@ -38,6 +39,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           echo: <Echo />,
           education: <Education />,
           email: <Email />,
+          blog: <Blog />,
           help: <Help />,
           history: <History />,
           projects: <Projects />,
