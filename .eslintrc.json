@@ -17,7 +17,7 @@
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier"],
-  "ignorePatterns": ["node_modules", "dist", "public", "index.html"],
+  "ignorePatterns": ["node_modules", "dist", "public", "index.html", "*.toml"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "react/no-unescaped-entities": 0,
