@@ -14,6 +14,7 @@ import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
 import Blog from "./commands/Blog";
+import Portfolio from "./commands/Portfolio";
 
 type Props = {
   index: number;
@@ -35,13 +36,14 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
       {
         {
           about: <About />,
+          blog: <Blog />,
           clear: <Clear />,
           echo: <Echo />,
           education: <Education />,
           email: <Email />,
-          blog: <Blog />,
           help: <Help />,
           history: <History />,
+          portfolio: <Portfolio />,
           projects: <Projects />,
           pwd: <GeneralOutput>/home/arialdev</GeneralOutput>,
           socials: <Socials />,

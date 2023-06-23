@@ -73,4 +73,4 @@ npm run dev
 
 ## Author
 
-- [@arialdev](https://arial.dev)
+- [@arialdev](https://alvarorivas.dev)

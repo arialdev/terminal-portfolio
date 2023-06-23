@@ -36,11 +36,18 @@ const Welcome: React.FC = () => {
         <div>Welcome to my terminal portfolio. (Version 1.3.1)</div>
         <Seperator>----</Seperator>
         <div>
-          This project's source code can be found in this project's{" "}
-          <Link href="https://github.com/arialdev/terminal-portfolio">
+          This project's source code can be found in this project's&nbsp;
+          <Link
+            href="https://github.com/arialdev/terminal-portfolio"
+            target="_blank"
+          >
             GitHub repo
           </Link>
           .
+        </div>
+        <Seperator>----</Seperator>
+        <div>
+          If you prefer a website with UI, type `<Cmd>portfolio</Cmd>`.
         </div>
         <Seperator>----</Seperator>
         <div>
